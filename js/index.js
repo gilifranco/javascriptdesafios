@@ -48,3 +48,20 @@ while (opcion != 0) {
     }
     opcion = parseInt(prompt('ingrese una opcion'))
 }
+
+const productos = [{
+    id: 1,
+    title: 'shampoode5litros',
+    tags: ['shampoo', '5', 'bidon', 'litros'],
+}, {
+    id: 2,
+    title: 'shampoode1litro',
+    tags: ['shampoo', '1', 'litro', 'botella'],
+} ,{
+    id: 3,
+    title: 'shampooenpomo',
+    tags: ['shampoo','en', 'pomo'],
+
+}]
+
+console.log(productos.map(productos => productos.title));
